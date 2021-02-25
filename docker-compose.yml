@@ -1,0 +1,16 @@
+version: '3.8'
+
+services:
+
+  # Node server to run typescript
+  node_server:
+    build:
+      context: .
+      dockerfile: ./.docker/Dockerfile
+    container_name: node_server
+    hostname: node_server
+    volumes:
+      - ./usr/src/app:/usr/src/app
+    working_dir: /app
+    ports:
+      - 3000:3000
