@@ -16,8 +16,8 @@ export class Human extends Figure {
         this._name = name;
     }
 
-    public handle_data() {
+    public get_data() {
         this.figure_name = "Quan vu";
-        this.characters = "Dũng cảm";
+        this.character = "Dũng cảm";
     }
 }

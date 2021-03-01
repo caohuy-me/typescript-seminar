@@ -11,7 +11,7 @@ export class Figure {
         return this._figureName;
     }
 
-    public get charater() {
+    public get character() {
         return this._character;
     }
 
@@ -19,7 +19,7 @@ export class Figure {
         this._figureName = figureName;
     }
 
-    public set characters(character: string) {
+    public set character(character: string) {
         this._character = character;
     }
 }
