@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "name": "Quan Vũ",
+    "age": 40,
+    "character": "Dũng cảm, kiên cường"
+  },
+  {
+    "id": 2,
+    "name": "Lưu Bị",
+    "age": 39,
+    "character": "Nhân nghĩa"
+  },
+  {
+    "id": 3,
+    "name": "Quan Vũ",
+    "age": 40,
+    "character": "Dũng cảm, kiên cường"
+  },
+  {
+    "id": 4,
+    "name": "Trương Phi",
+    "age": 40,
+    "character": "Nóng tính"
+  }
+]
