@@ -1,17 +1,22 @@
-import express from 'express';
-import { Human } from './class/Human'
+import express from "express";
+import { Dog, Cat, Chicken } from "./class/Animal";
 
 const app = express();
 
-app.listen(3000, () => {
+app.listen(3000, () => {});
 
-});
+const dog = new Dog("Husky");
+const cat = new Cat("Doreamon");
+const chicken = new Chicken("Ga trong");
 
-let inputUser = new Human();
-inputUser.name = "Huy";
-console.log(inputUser.name);
-inputUser.get_data();
-console.log(inputUser.figure_name);
-console.log(inputUser.character);
+dog.callSound();
+dog.run();
+dog.getLegs();
 
+cat.callSound();
+cat.run();
+cat.getLegs();
 
+chicken.callSound();
+chicken.run();
+chicken.getLegs();
